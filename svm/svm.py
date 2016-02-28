@@ -3,7 +3,7 @@ from sklearn import svm
 from sklearn.metrics import accuracy_score
 
 iris = load_iris()
-clf = svm.SVC(kernel='rbf',C=1000)
+clf = svm.SVC(kernel='rbf',C=10000)
 clf.fit(iris.data, iris.target) 
 
 
